@@ -1,7 +1,11 @@
 function Card() {
 
     return (
-        <p>Hello</p>
+        <div className="card">
+            <img></img>
+            <h3>Card Title</h3>
+            <p>This is a description of the card</p>
+        </div>
   );
 }
 
