@@ -4,14 +4,13 @@ function UserGreeting({isLoggedIn = false, username = "admin"}: props) {
         return (
         <div className="greeting">
             <h1 className="greeting-title">Welcome, {username}!</h1>
-            <p className="greeting-text">We're glad to have you here.</p>
         </div>
     );
     }
     else {
         return (
         <div className="greeting">
-            <h2 className="greeting-title">Warning</h2>
+            <h2 className="greeting-title-warning">Warning</h2>
             <p className="greeting-text">Please log in to continue.</p>
         </div>
     );

@@ -68,3 +68,21 @@
   color: hsl(0, 0%, 0%);
   text-align: center;
 }
+
+.greeting .greeting-title-warning {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: hsl(0, 100%, 40%);
+  text-align: center;
+}
+.button_default {
+  background-color: hsl(332, 100%, 91%);
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
