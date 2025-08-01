@@ -1,8 +1,8 @@
 function Header() {
     return (
-        <header>
-            <h1>Welcome to the Beginner React Tutorial</h1>
-            <p>Learn the basics of React step by step.</p>
+        <header className="header">
+            <h1 className="header-title">Welcome to the Beginner React Tutorial</h1>
+            <p className="header-text">Learn the basics of React step by step.</p>
             {/*
                 <nav>
                     ul>
