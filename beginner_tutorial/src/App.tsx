@@ -1,5 +1,6 @@
 import Header from "./Header"
 import Footer from "./Footer";
+import Card from "./Card";
 
 function App() {
   // this will serve as the root of the application
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Header />
+      <Card />
       <Footer />
     </>
   );
