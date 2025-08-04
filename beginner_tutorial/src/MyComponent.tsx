@@ -13,10 +13,6 @@ function MyComponent() {
         <>
             <button className="button_default"onClick={updateName}>Set Name</button>
             <p>Name: {name}</p>
-            <h6>asdasd</h6>
-            
-            <h2>sdsd</h2>
-            <h1>aselsakmd</h1>
         </>
 
     );
