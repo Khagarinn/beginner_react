@@ -10,12 +10,6 @@ function App() {
   // we will add components here later
   return (
     <>
-      <UserGreeting isLoggedIn={true} username="Admin" />
-      <Header />
-      <Button />
-      <Card name="arda" length={20} />
-      <Card name="Darfa" length={1} />
-      <Card name="Arda" length={3} />
       <MyComponent />
     </>
   );
@@ -34,8 +28,8 @@ import Button from "./Button";
       <UserGreeting isLoggedIn={true} username="Admin" />
       <Header />
       <Button />
-      <Card name="Mert Can" length={20} />
-      <Card name="Doruk" length={1} />
+      <Card name="arda" length={20} />
+      <Card name="Darfa" length={1} />
       <Card name="Arda" length={3} />
 
 */
