@@ -13,9 +13,9 @@ function App() {
       <UserGreeting isLoggedIn={true} username="Admin" />
       <Header />
       <Button />
-      <Card name="arda" length={20} />
-      <Card name="Darfa" length={1} />
-      <Card name="Arda" length={3} />
+      <Card name="doruk" length={20} />
+      <Card name="doruk" length={1} />
+      <Card name="Doruk" length={3} />
       <Card name="Doruk" length={3} />
       <MyComponent />
     </>
