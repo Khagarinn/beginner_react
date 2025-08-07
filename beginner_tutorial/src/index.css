@@ -101,13 +101,15 @@
   justify-content: center;      /* Vertical centering */
   align-items: center;          /* Horizontal centering */
   min-height: 100vh;            /* Full viewport height */                /* Remove default margin */
-  background-color: rgba(191, 78, 78, 0.633);
+  background-color: rgba(0, 255, 119, 0.633);
   border-radius: 15px;
   border-width: 8px;
   border-style: solid;
   border-color: hsl(0, 0%, 100%)
 }
-
+/*
+rgba(191, 78, 78, 0.633);
+*/
 
 .sw .sw-title {
   font-family: Calibri, Helvetica, sans-serif;
