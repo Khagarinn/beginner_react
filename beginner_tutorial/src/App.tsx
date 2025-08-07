@@ -16,6 +16,7 @@ function App() {
       <Card name="arda" length={20} />
       <Card name="Darfa" length={1} />
       <Card name="Arda" length={3} />
+      <Card name="Doruk" length={3} />
       <MyComponent />
     </>
   );
