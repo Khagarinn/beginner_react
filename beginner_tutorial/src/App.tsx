@@ -2,6 +2,7 @@ import Header from "./Header"
 import Card from "./Card";
 import UserGreeting from "./UserGreeting";
 import Button from "./Button";
+import Stopwatch from "./Stopwatch";
 
 import MyComponent from "./MyComponent";
 
@@ -10,7 +11,7 @@ function App() {
   // we will add components here later
   return (
     <>
-      <MyComponent />
+      <Stopwatch />
     </>
   );
 }
@@ -31,5 +32,6 @@ import Button from "./Button";
       <Card name="arda" length={20} />
       <Card name="Darfa" length={1} />
       <Card name="Arda" length={3} />
+      <MyComponent />
 
 */

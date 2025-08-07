@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
 .card{
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px;
@@ -85,4 +93,62 @@
   cursor: pointer;
   display: block;
   margin: 20px auto;
+}
+
+.sw {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* Vertical centering */
+  align-items: center;          /* Horizontal centering */
+  min-height: 100vh;            /* Full viewport height */                /* Remove default margin */
+  background-color: rgba(191, 78, 78, 0.633);
+  border-radius: 15px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 100%)
+}
+
+
+.sw .sw-title {
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: 24px;
+  color: hsl(288, 76%, 17%)
+}
+
+
+.sw .sw-buttontype1 {
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(288, 76%, 17%);
+  color: hsl(288, 76%, 17%);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin: 20px auto;
+  margin-right: 10px;
+  font-weight: bold;
+
+}
+
+.sw .sw-text {
+  color: hsl(0, 0%, 100%);
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  font-weight: 200;
+}
+
+.sw .sw-buttontype2 {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(288, 76%, 17%);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  color: hsl(0, 100%, 45%);
+  cursor: pointer;
+  margin: 20px auto;
+  margin-right: 10px;
+  font-weight: bold;
+  border: 2px solid hsl(0, 100%, 45%);
 }
