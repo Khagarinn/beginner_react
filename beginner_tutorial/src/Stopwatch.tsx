@@ -3,7 +3,7 @@ import { useState } from "react";
 function Stopwatch() {
 
 const [count, setCount] = useState(0);
-
+/*
 function increment() {
     setCount(count + 1);
 }
@@ -18,7 +18,7 @@ function increment_2() {
     // because React batches state updates
     // in the same event loop tick.
 }
-
+*/
 function increment_3() {
     setCount(c => c + 1);
     setCount(c => c + 1);
