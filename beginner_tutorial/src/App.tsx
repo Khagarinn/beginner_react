@@ -1,11 +1,11 @@
-import UpdateObjects from "./UpdateObjects";
+import Array from "./Array";
 
 function App() {
   // this will serve as the root of the application
   // we will add components here later
   return (
     <>
-      <UpdateObjects />
+      <Array />
     </>
   );
 }
@@ -21,6 +21,7 @@ import UserGreeting from "./UserGreeting";
 import Button from "./Button";
 import MyComponent from "./MyComponent";
 import Stopwatch from "./Stopwatch";
+import UpdateObjects from "./UpdateObjects";
 
       <UserGreeting isLoggedIn={true} username="Admin" />
       <Header />
@@ -30,4 +31,5 @@ import Stopwatch from "./Stopwatch";
       <Card name="Arda" length={3} />
       <MyComponent />
       <Stopwatch />
+      <UpdateObjects />
 */

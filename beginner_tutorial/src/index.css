@@ -184,3 +184,94 @@ rgba(191, 78, 78, 0.633);
   align-items: center;          /* Horizontal centering */
   background-color: rgba(255, 221, 221, 0.633);
 }
+
+
+.arraycontainer{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* Vertical centering */
+  align-items: center;          /* Horizontal centering */
+  background-color: rgb(248, 247, 247);
+  gap: 50px;
+  height: 100vh;
+  /*
+  justify-content: space-evenly;
+  */
+}
+
+.arraycontainer .title{
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 5000;
+  color: hsl(288, 83%, 23%);
+}
+
+.arrayRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;      /* Horizontal centering */
+  align-items: center;          /* Vertical centering */
+  justify-content: space-between;
+  background-color: rgb(241, 250, 177);
+  margin: 10px;
+  align-self: stretch;
+  list-style-position: inside;
+  border : 3px solid hsl(288, 83%, 23%);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.arraycontainer .listItems{
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 450;
+  color: hsl(0, 0%, 0%);
+  padding-left: 10px;
+  cursor: pointer;
+
+}
+
+
+.arraycontainer .input{
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  color: hsl(0, 0%, 0%);
+}
+
+.arrayRow2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;      /* Horizontal centering */
+  align-items: center;          /* Vertical centering */
+  gap: 25px;
+  background-color: hsl(288, 83%, 23%);
+  margin: 10px;
+  align-self:flex-start;
+  list-style-position: inside;
+  border : 3px solid hsl(288, 83%, 23%);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.arraycontainer .button {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 100%);
+  padding: 3px 20px; /* Adds space around text */
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 8px; /* Rounded corners for modern look */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+}
+
+.arraycontainer .button:hover {
+  background-color: hsl(0, 0%, 95%);
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
